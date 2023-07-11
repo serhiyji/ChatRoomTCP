@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ChatServer.cs~RF197fb62d.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Database\Database.csproj" />
+    <ProjectReference Include="..\ExpansionForCAndS\ExpansionForCAndS.csproj" />
+  </ItemGroup>
+
+</Project>
